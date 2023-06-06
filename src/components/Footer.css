@@ -1,0 +1,73 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    height: 40vh;
+    padding: 6rem 0;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+.footer .left{
+    width: 20%;
+    text-align: right;
+}
+.footer .left p,h5{
+    direction: rtl;
+    
+}
+.footer .location p::before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f015";
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 900;
+   padding-bottom: 15px;
+   padding-left: 5px;
+}
+.footer .left .Tel h5::before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f095";
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 900;
+   padding-bottom: 10px;
+   padding-left: 5px;
+}
+.footer .left .e-mail h5::before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f0e0";
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 900;
+   padding-bottom: 10px;
+   padding-left: 5px;
+}
+.footer .right{
+    width: 50%;
+    text-align: right;
+    margin-left:2rem;
+    text-justify: newspaper;
+}
+
+@media screen and (max-width:640px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer .left {
+        width: fit-content;
+    }
+    .footer .right {
+
+        
+        width: fit-content;
+    }
+    .right .about h4{
+        margin-top: 20px;
+    }
+    .right .socials{
+        margin-bottom: 20px;
+    }
+}

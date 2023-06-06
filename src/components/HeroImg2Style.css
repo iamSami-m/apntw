@@ -1,0 +1,25 @@
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#777;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+}
+.header-content h1{
+    font-size: 2.4rem;
+}
+.header-content p{
+    font-size: 1.4rem;
+    align-items: center;
+}
+@media screen and (max-width:640px)  {
+    .header-content h1{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: 95vh;
+    background-image: url('../assets/cables-1241670.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+}
+.header-content h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.header-content h6{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.header-content .buttons .btn1{
+    margin-left: 10px;
+}
+
+

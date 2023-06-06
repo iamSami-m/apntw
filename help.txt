@@ -1,0 +1,4 @@
+1- instal react-router-dom and react-icons
+2- put <App/> between BrowserRouter tag from react-router-dom
+3-instal es7+React/Redux... plugin for shortcuts
+4-rafce is shortcut for functional component
